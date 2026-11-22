@@ -1,134 +1,98 @@
- Early Detection of Financial Distress
+# Early Detection of Financial Distress Using Machine Learning
 
+## Project Overview
 
+This project explores the use of Machine Learning techniques for the early detection of financial distress in companies.
 
- Project Overview
+It analyzes financial indicators and applies multiple machine learning algorithms to identify patterns associated with potential financial distress. Different models are implemented and compared to study their predictive performance.
 
-This project focuses on the early detection of financial distress in companies using machine learning techniques. It analyzes financial indicators and builds predictive models to identify companies that may be at risk of financial distress.
+The project also includes an interactive Streamlit-based demonstration application that allows users to enter financial information and explore the prediction workflow.
 
+**Note:** The Streamlit application is an experimental demonstration and is not intended to provide actual financial assessments or support real-world financial decisions.
 
-
-The project includes machine learning experiments, model comparisons, and an interactive Streamlit-based demonstration application.
-
-
-
-Project Structure
-
-
+## Project Structure
 
 ```text
-
 Early-Detection-of-Financial-Distress/
-
 │
-
-├── bankruptcy\_demo/       # Streamlit application
-
+├── bankruptcy_demo/       # Interactive Streamlit demonstration
 │   ├── app.py
-
 │   ├── pages/
-
 │   ├── assets/
-
 │   └── requirements.txt
-
 │
-
-├── experiments/           # Research and model experiments
-
+├── experiments/           # Machine learning experiments
 │   ├── Step1.ipynb
-
 │   ├── Step2.ipynb
-
 │   ├── ...
-
 │   ├── Step8.ipynb
-
 │   ├── models/
-
 │   ├── data/
-
 │   └── results/
-
 │
-
 ├── .gitignore
-
 └── README.md
-
 ```
 
+## Project Components
 
+### 1. Machine Learning Experiments
 
-Components
+- Data preprocessing and preparation.
+- Implementation of multiple machine learning algorithms.
+- Model training and evaluation.
+- Comparison of different models based on their performance.
+- Storage of trained models and experimental results.
 
+### 2. Interactive Demonstration Application
 
+A Streamlit-based application that provides an interactive interface where users can:
 
-1. Experiments
+- Enter financial information.
+- Explore the financial distress prediction workflow.
+- View model comparisons and related results.
 
-Contains Jupyter notebooks, datasets, trained machine learning models, processed data, and experimental results.
+The application serves as a demonstration of the developed approach.
 
+## Technologies Used
 
+- Python
+- Machine Learning
+- Pandas and NumPy
+- Scikit-learn
+- XGBoost
+- Streamlit
+- Jupyter Notebook
 
-2. Interactive Demo
+## Running the Interactive Demo
 
-A Streamlit application that provides an interface for exploring financial distress predictions and model comparisons.
+### Step 1: Navigate to the demo directory
 
+```bash
+cd bankruptcy_demo
+```
 
+### Step 2: Install dependencies
 
-Technologies Used
+```bash
+pip install -r requirements.txt
+```
 
-\- Python
+### Step 3: Run the Streamlit application
 
-\- Machine Learning
+```bash
+streamlit run app.py
+```
 
-\- Pandas and NumPy
+The application will open in your default web browser.
 
-\- Scikit-learn
+## Research and Experiments
 
-\- XGBoost
+The `experiments/` directory contains the Jupyter notebooks, datasets, trained models, and results used throughout the machine learning workflow.
 
-\- Streamlit
+These experiments demonstrate the implementation and comparison of different machine learning approaches for financial distress detection.
 
-\- Jupyter Notebook
+## Repository Contents
 
-
-
-Running the Demo
-
-
-
-1\. Navigate to the demo directory:
-
-&#x20;  ```bash
-
-&#x20;  cd bankruptcy\_demo
-
-&#x20;  ```
-
-
-
-2\. Install dependencies:
-
-&#x20;  ```bash
-
-&#x20;  pip install -r requirements.txt
-
-&#x20;  ```
-
-
-
-3\. Run the application:
-
-&#x20;  ```bash
-
-&#x20;  streamlit run app.py
-
-&#x20;  ```
-
-
-
-\## Repository Contents
-
-This repository contains the experimental workflow and the interactive demonstration developed as part of the financial distress detection project.
+This repository contains the machine learning experimental workflow, model comparisons, research-related work, and an interactive demonstration application developed as part of the project.
 
