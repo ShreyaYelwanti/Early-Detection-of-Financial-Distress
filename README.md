@@ -1,8 +1,8 @@
-\# Early Detection of Financial Distress
+ Early Detection of Financial Distress
 
 
 
-\## Project Overview
+ Project Overview
 
 This project focuses on the early detection of financial distress in companies using machine learning techniques. It analyzes financial indicators and builds predictive models to identify companies that may be at risk of financial distress.
 
@@ -12,7 +12,7 @@ The project includes machine learning experiments, model comparisons, and an int
 
 
 
-\## Project Structure
+Project Structure
 
 
 
@@ -60,23 +60,23 @@ Early-Detection-of-Financial-Distress/
 
 
 
-\## Components
+Components
 
 
 
-\### 1. Experiments
+1. Experiments
 
 Contains Jupyter notebooks, datasets, trained machine learning models, processed data, and experimental results.
 
 
 
-\### 2. Interactive Demo
+2. Interactive Demo
 
 A Streamlit application that provides an interface for exploring financial distress predictions and model comparisons.
 
 
 
-\## Technologies Used
+Technologies Used
 
 \- Python
 
@@ -94,7 +94,7 @@ A Streamlit application that provides an interface for exploring financial distr
 
 
 
-\## Running the Demo
+Running the Demo
 
 
 
